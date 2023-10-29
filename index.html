@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Planning Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <Logo class="logo">
+        <image src="logo.png" style="height: 100px; width: 100px"/>
+      </Logo>
+      <div id="sideNav">
+        <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Service">Service</a></li>
+          <li><a href="#Testimony">Testimony</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <div id="menubtn">
+      <img src="bg.png" id="menu">
+  </div>
+<!--- HOME started-->
+
+    <div id="Home">
+      <div class="Right">
+        <h1>
+          Welcome to The Crown Perfect &nbsp &nbsp <span style="color: #9f7b4c">Planning</span>
+            </span
+          >
+        </h1>
+        <button>Explore</button>
+      </div>
+      <div class="Left"></div>
+    </div>
+<!--- HOME End-->
+
+<!--- About started-->
+    <div id="About">
+      <div class="title-text">
+      <p>ABOUT US</p>
+    </div>
+      <div class="First">
+        <div class="One">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+            autem adipisci recusandae, eligendi sapiente expedita debitis,
+            consectetur sunt minus ratione consequatur nesciunt, fugiat sit aut
+          </p>
+        </div>
+        <div class="Two"></div>
+      </div>
+      <div class="Second">
+        <div class="Four"></div>
+        <div class="Three">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias
+            autem adipisci recusandae, eligendi sapiente expedita debitis,
+            consectetur sunt minus ratione consequatur nesciunt, fugiat sit aut
+          </p>
+        </div>
+      </div>
+    </div>
+<!--- About End-->
+
+<!--- Testimony started-->
+<div class="Holds">
+    <div id="Testimony">
+      <div class="title-text">
+        <p>TESTIMONIAL</p>
+        <h1>What Client Says</h1>
+    </div>
+<div class="testimonial-row">
+    <div class="testimonial-col">
+        <div class="user">
+            <img src="k1.jpg">
+            <div class="user-info">
+                <h4>AY AYO <i class="fa fa-twitter"></i>
+                </h4>
+                <small>@AyomideAdisa</small>
+            </div>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, magni ipsa, vitae inventore minima ad illum distinctio eum porro ea delectus pariatur ex mollitia eius consequuntur in tempore nisi nemo.
+        </p>
+    </div>
+    <div class="testimonial-col">
+        <div class="user">
+            <img src="k2.jpg">
+            <div class="user-info">
+                <h4>Kv Kevin<i class="fa fa-twitter"></i>
+                </h4>
+                <small>@KvKevin</small>
+            </div>
+        </div>
+        <p>
+            this is test under description of barber 
+            foundation this is text under description of 
+            barber foundation.Font Awesome icons are vectors, 
+        </p>
+    </div>
+    <div class="testimonial-col">
+        <div class="user">
+            <img src="k3.jpg">
+            <div class="user-info">
+                <h4>Da Daniel<i class="fa fa-twitter"></i>
+                </h4>
+                <small>@DanielDv</small>
+            </div>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam suscipit asperiores optio nihil rem cupiditate commodi dicta pariatur, perferendis maiores cum dignissimos ratione vitae voluptas velit dolorum sunt maxime dolor?
+        </p>
+    </div>
+</div>
+</div>
+    </div>
+
+<!--- Testiomoy End-->
+
+<!--- Service started-->
+
+    <div id="Service">
+      <div class="title-text">
+     <p>Service</p>
+         </div>
+    </div>
+<!--- Service End-->
+
+<!--footer-->
+<section id="Contact">
+  <img src="" class="footer-img">
+  <div class="title-text">
+      <Center><p>CONTACT</p>
+      <h1>Visit Us Today</h1></Center>
+  </div>
+  <div class="footer-row">
+  <div class="footer-left">
+      <h1>Opening Hours</h1>
+      <p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+      <p><i class="fa fa-clock-o"></i>Saturday and Sunday - 8am to 11pm</p>
+  </div>
+  <div class="footer-right">
+      <h1>Get In Touch</h1>
+      <p>No 3,oladipo street Aj Ap lagos<i class="fa fa-map-marker"></i></p>
+      <p>Ayomideadisa83@gmail.com<i class="fa fa-paper-plane"></i></p>
+      <p>+234 8131573087<i class="fa fa-phone"></i></p>
+  </div>
+  </div>
+<div class="social-links">
+  <i><a href="https://www.facebook.com/profile.php?id=100084291271901" class=" fa fa-facebook"></a></i>
+  <i><a href="https://www.instagram.com/ayomideadisa820/" class="fa fa-instagram"></a></i>
+  <i><a href="https://@Ayomide72429039" class="fa fa-twitter"></a></i>
+  <i><a href="https://wa.link/deetuv" class="fa fa-whatsapp"></a></i>  
+  <i><a href="https://t.me/Ayo456789" class="fa fa-telegram"></a></i>
+  <p>Copyright@TheCrown.Planning </p>
+</div>
+
+
+<script>
+        var menubtn = document.getElementById("menubtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menubtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "close.png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "bg.png";
+            }
+        }
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+    </script>
+</section>
+  </body>
+</html>
